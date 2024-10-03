@@ -1,0 +1,230 @@
+{
+    "version": 1,
+    "temporalGroups": [
+        {
+            "id": "Einzelaufnahmen",
+            "name": "Einzelaufnahmen",
+            "type": "tour",
+            "description": "",
+            "autoConnectColocated": true,
+            "colocatedRadius": 10,
+            "multiselect": true
+        },
+        {
+            "id": "Fern",
+            "name": "Fern",
+            "type": "tour",
+            "description": "",
+            "superGroup": "Einzelaufnahmen",
+            "autoConnectColocated": true,
+            "colocatedRadius": 10,
+            "multiselect": true
+        }
+    ],
+    "spatialGroups": [
+        {
+            "id": "September 2024 Fern",
+            "name": "September 2024",
+            "type": "singleshot",
+            "timeslot": "2024-09-14T11:00:00.000Z",
+            "description": "",
+            "superGroup": "Fern",
+            "path": "",
+            "vertices": [
+                {
+                    "id": "2024-09-14_43.691072,-1.439853_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        43.69109367674002,
+                        -1.4399338774929058
+                    ],
+                    "path": "Seignosse/2024/2024-09-14-0106_jpg",
+                    "image": {
+                        "width": 41750,
+                        "height": 10195
+                    },
+                    "data": {
+                        "type": "multiresrec",
+                        "vaov": 87.90898203592815,
+                        "northOffset": -7.243897058586347,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "originalWidth": 41750,
+                            "originalHeight": 10195,
+                            "maxLevel": 7,
+                            "path": "%l/%x_%y",
+                            "extension": "webp"
+                        }
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2024-09-14_43.691072,-1.439853_panorama to 2024-09-14_43.693626,-1.439394_panorama route",
+                            "to": "2024-09-14_43.693626,-1.439394_panorama",
+                            "type": "route",
+                            "bidirectional": true
+                        },
+                        {
+                            "id": "2024-09-14_43.691072,-1.439853_panorama to 2024-09-14_43.693102,-1.437535_panorama route",
+                            "to": "2024-09-14_43.693102,-1.437535_panorama",
+                            "type": "route",
+                            "bidirectional": true
+                        }
+                    ]
+                },
+                {
+                    "id": "2024-09-14_43.693626,-1.439394_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        43.693628735951954,
+                        -1.4394144357945031
+                    ],
+                    "path": "Seignosse/2024/2024-09-14-0134_jpg",
+                    "image": {
+                        "width": 41750,
+                        "height": 7321
+                    },
+                    "data": {
+                        "type": "multiresrec",
+                        "vaov": 63.12718562874252,
+                        "northOffset": -0.6385753693510304,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "originalWidth": 41750,
+                            "originalHeight": 7321,
+                            "maxLevel": 7,
+                            "path": "%l/%x_%y",
+                            "extension": "webp"
+                        }
+                    }
+                },
+                {
+                    "id": "2024-09-14_43.693102,-1.437535_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        43.69305048083092,
+                        -1.4375263863657262
+                    ],
+                    "path": "Seignosse/2024/2024-09-20-0596_jpg",
+                    "image": {
+                        "width": 21571,
+                        "height": 5143
+                    },
+                    "data": {
+                        "type": "multiresrec",
+                        "vaov": 85.83190394511149,
+                        "northOffset": -12.032599669084735,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "originalWidth": 21571,
+                            "originalHeight": 5143,
+                            "maxLevel": 6,
+                            "path": "%l/%x_%y",
+                            "extension": "webp"
+                        }
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2024-09-14_43.693102,-1.437535_panorama to 2024-09-14_43.693626,-1.439394_panorama route",
+                            "to": "2024-09-14_43.693626,-1.439394_panorama",
+                            "type": "route",
+                            "bidirectional": true
+                        }
+                    ]
+                },
+                {
+                    "id": "2024-09-14_43.317281,-1.986341_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        43.317287945328175,
+                        -1.9863394790957047
+                    ],
+                    "path": "Seignosse/2024/2024-09-18-0423_jpg",
+                    "image": {
+                        "width": 21828,
+                        "height": 5563
+                    },
+                    "data": {
+                        "type": "multiresrec",
+                        "vaov": 91.74821330401319,
+                        "northOffset": 47.324700454501645,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "originalWidth": 21828,
+                            "originalHeight": 5563,
+                            "maxLevel": 6,
+                            "path": "%l/%x_%y",
+                            "extension": "webp"
+                        }
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2024-09-14_43.317281,-1.986341_panorama to 2024-09-14_43.691072,-1.439853_panorama route",
+                            "to": "2024-09-14_43.691072,-1.439853_panorama",
+                            "type": "route",
+                            "bidirectional": true
+                        }
+                    ]
+                },
+                {
+                    "id": "2024-09-14_43.317051,-1.986750_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        43.31705060977342,
+                        -1.9867501035332682
+                    ],
+                    "path": "Seignosse/2024/2024-09-18-0450_jpg",
+                    "image": {
+                        "width": 21747,
+                        "height": 6039
+                    },
+                    "data": {
+                        "type": "multiresrec",
+                        "vaov": 99.96965098634294,
+                        "northOffset": 50.26064504987924,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "originalWidth": 21747,
+                            "originalHeight": 6039,
+                            "maxLevel": 6,
+                            "path": "%l/%x_%y",
+                            "extension": "webp"
+                        }
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2024-09-14_43.317051,-1.986750_panorama to 2024-09-14_43.317281,-1.986341_panorama route",
+                            "to": "2024-09-14_43.317281,-1.986341_panorama",
+                            "type": "route",
+                            "bidirectional": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "map": {
+            "center": [
+                43.691133832845985,
+                -1.4399600028991701
+            ],
+            "zoom": 15
+        },
+        "timeline": {
+            "end": "2024-10-03T19:52:48.898Z",
+            "start": "2023-10-03T19:52:48.898Z",
+            "selections": [
+                "September 2024 Fern"
+            ]
+        },
+        "panorama": {
+            "scene": "2024-09-14_43.691072,-1.439853_panorama",
+            "yaw": -136.88940899433305,
+            "pitch": 0,
+            "hfov": 112.99462735870021
+        }
+    },
+    "map": {
+        "backgrounds": []
+    }
+}
